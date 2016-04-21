@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Angular-SEO
 -----------
 
@@ -157,3 +158,6 @@ if ($args ~ _escaped_fragment_) {
 }
 ```
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/3a55c16a191c4c8222beddcf429c2608 "githalytics.com")](http://githalytics.com/steeve/angular-seo)
+=======
+# mdsp
+>>>>>>> c51f9d07c92d9c7545f7e12179787f90eaf5d642
