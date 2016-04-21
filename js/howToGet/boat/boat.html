@@ -1,0 +1,44 @@
+<section>
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<ui-gmap-google-map center="boat.map.boat.center" zoom="boat.map.boat.zoom" options="boat.map.boat.options" control="boat.map.boat.control">
+				<ui-gmap-markers models="boat.map.markers.boatMap" coords="'self'" icon="'icon'"></ui-gmap-markers>
+				<ui-gmap-polyline 
+					path="boat.map.boat.line.path",
+					stroke="boat.map.boat.line.stroke"
+					icons="boat.map.boat.line.icons"
+					geodesic="true"
+					visible="true"
+					fit="true"
+					static="true">
+				</ui-gmap-polyline>
+			</ui-gmap-google-map>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row site-content">
+			<div class="col-lg-8 col-lg-offset-2">
+				<p translate="howToGet.option.boat.text1" translate-compile></p>
+				<p translate="howToGet.option.boat.text2" translate-compile></p>
+				<p translate="howToGet.option.boat.text3" translate-compile></p>
+				<p translate="howToGet.option.boat.text4" translate-compile></p>
+
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<td ng-repeat="head in boat.boatHeadTable" ng-if="!$first">{{head}}</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="content in boat.bodyBoats">
+							<td>{{content.hour}}</td>
+							<td>{{content.destination}}</td>
+							<td>{{content.frequency}}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>

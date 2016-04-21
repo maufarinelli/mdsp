@@ -1,0 +1,38 @@
+<nav class="menu">
+    <div class="menu-desktop">
+        <span class="logo menu-item" ng-repeat="menuItem in menu.menuItems | limitTo:1"
+              ng-class="{'is-activated': menu.isMenuItemActive(menuItem)}"
+              ng-click="menu.onMenuItemClick(menuItem)">
+            <a ng-click="menu.home()" href="{{menuItem.url}}"></a>
+        </span>
+        <ul>
+            <li class="menu-item" ng-repeat="menuItem in menu.menuItems | limitTo:-3"
+                ng-class="{'is-activated': menu.isMenuItemActive(menuItem)}"
+                ng-click="menu.onMenuItemClick(menuItem)">
+                <a href="{{menuItem.url}}">{{menuItem.text}}</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="menu-mobile">
+        <span class="logo menu-item" ng-repeat="menuItem in menu.menuItems | limitTo:1"
+              ng-class="{'is-activated': menu.isMenuItemActive(menuItem)}"
+              ng-click="menu.onMenuItemClick(menuItem)">
+            <a ng-click="menu.home()" href="{{menuItem.url}}"></a>
+        </span>
+        <i class="menu-mobile-toggle" ng-click="menu.onMenuToggle()"></i>
+        <ul ng-show="menu.isMenuOpened">
+            <li class="menu-item" ng-repeat="menuItem in menu.menuItems | limitTo:-3"
+                ng-class="{'is-activated': menu.isMenuItemActive(menuItem)}"
+                ng-click="menu.onMenuItemClick(menuItem)">
+                <a href="{{menuItem.url}}">{{menuItem.text}}</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="menu-languages">
+        <button ng-if="currentLanguage != 'en'" ng-click="menu.changeLanguage('en')"><img src="img/flag-uk.png" width="24" alt="English"></button>
+        <button ng-if="currentLanguage != 'fr'" ng-click="menu.changeLanguage('fr')"><img src="img/flag-france.png" width="24" alt="French"></button>
+        <button ng-if="currentLanguage != 'pt'" ng-click="menu.changeLanguage('pt')"><img src="img/flag-brazil.png" width="24" alt="Português"></button>
+    </div>
+</nav>

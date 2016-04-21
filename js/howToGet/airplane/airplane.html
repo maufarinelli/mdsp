@@ -1,0 +1,57 @@
+<section>
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2">
+			<ui-gmap-google-map center='airplane.map.avion.center' zoom='airplane.map.avion.zoom' options="airplane.map.avion.options">
+				<ui-gmap-markers models="airplane.markers.avionMap" coords="'self'" icon="'icon'"></ui-gmap-markers>
+				<ui-gmap-polyline 
+					path="airplane.map.avion.line.path",
+					stroke="airplane.map.avion.line.stroke"
+					icons="airplane.map.avion.line.icons"
+					geodesic="true"
+					visible="true"
+					fit="true"
+					static="true">
+				</ui-gmap-polyline>
+			</ui-gmap-google-map>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row site-content">
+			<div class="col-lg-8 col-lg-offset-2">
+				<p translate="howToGet.option.avion.text1" translate-compile></p>
+				<p translate="howToGet.option.avion.text2" translate-compile></p>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<td ng-repeat="head in airplane.avionHeadTable" ng-if="!$first">{{head}}</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="content in airplane.bodyAxe">
+							<td>{{content.hour}}</td>
+							<td>{{content.destination}}</td>
+							<td>{{content.frequency}}</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<p translate="howToGet.option.avion.text3" translate-compile></p>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<td ng-repeat="head in airplane.avionHeadTable" ng-if="!$first">{{head}}</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="content in airplane.bodyOthers">
+							<td>{{content.hour}}</td>
+							<td>{{content.destination}}</td>
+							<td>{{content.frequency}}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>

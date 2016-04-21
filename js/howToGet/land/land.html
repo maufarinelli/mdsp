@@ -1,0 +1,115 @@
+<section class="land">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<p translate="howToGet.option.land.text1" translate-compile></p>
+				<p translate="howToGet.option.land.text1.1" translate-compile></p>
+			</div>
+		</div>
+	</div>
+	<div class="row site-content">
+		<div class="col-lg-4 col-lg-offset-2">
+			<ui-gmap-google-map center="land.map.land1.center" zoom="land.map.land1.zoom" options="land.map.land1.options" control="land.map.land1.control">
+				<ui-gmap-markers models="land.map.markers.land1Map" coords="'self'" icon="'icon'"></ui-gmap-markers>
+				<ui-gmap-polyline 
+					path="land.map.land1.line.path",
+					stroke="land.map.land1.line.stroke"
+					icons="land.map.land1.line.icons"
+					geodesic="true"
+					visible="true"
+					fit="true"
+					static="true">
+				</ui-gmap-polyline>
+			</ui-gmap-google-map>
+		</div>
+		<div class="col-lg-4 column-md-below">
+			<h2 class="land-subtitle" translate="howToGet.option.land.text2.title" translate-compile></h2>
+			<p translate="howToGet.option.land.text2" translate-compile></p>
+		</div>
+	</div>
+	<div class="row site-content">
+		<div class="col-lg-4 col-lg-offset-2">
+			<ui-gmap-google-map center="land.map.land2.center" zoom="land.map.land2.zoom" options="land.map.land2.options" control="land.map.land2.control">
+				<ui-gmap-markers models="land.map.markers.land2Map" coords="'self'" icon="'icon'"></ui-gmap-markers>
+				<ui-gmap-polyline 
+					path="land.map.land2.line.path",
+					stroke="land.map.land2.line.stroke"
+					icons="land.map.land2.line.icons"
+					geodesic="true"
+					visible="true"
+					fit="true"
+					static="true">
+				</ui-gmap-polyline>
+			</ui-gmap-google-map>
+		</div>
+		<div class="col-lg-4 column-md-below">
+			<h2 class="land-subtitle" translate="howToGet.option.land.text3.title" translate-compile></h2>
+			<p translate="howToGet.option.land.text3.1" translate-compile></p>
+			<p translate="howToGet.option.land.text3.2" translate-compile></p>
+		</div>
+	</div>
+	<div class="row site-content">
+		<div class="col-lg-4 col-lg-offset-2">
+			<ui-gmap-google-map center="land.map.land3.center" zoom="land.map.land3.zoom" options="land.map.land3.options" control="land.map.land3.control">
+				<ui-gmap-markers models="land.map.markers.land3Map" coords="'self'" icon="'icon'"></ui-gmap-markers>
+				<ui-gmap-polyline 
+					path="land.map.land3.line.path",
+					stroke="land.map.land3.line.stroke"
+					icons="land.map.land3.line.icons"
+					geodesic="true"
+					visible="true"
+					fit="true"
+					static="true">
+				</ui-gmap-polyline>
+			</ui-gmap-google-map>
+		</div>
+		<div class="col-lg-4 column-md-below">
+			<h2 class="land-subtitle" translate="howToGet.option.land.text4.title" translate-compile></h2>
+			<p translate="howToGet.option.land.text4.1" translate-compile></p>
+			<p translate="howToGet.option.land.text4.2" translate-compile></p>
+		</div>
+	</div>
+	<div class="row site-content">
+		<div class="col-lg-4 col-lg-offset-2">
+			<ui-gmap-google-map center="land.map.land4.center" zoom="land.map.land4.zoom" options="land.map.land4.options" control="land.map.land4.control">
+				<ui-gmap-markers models="land.map.markers.land4Map" coords="'self'" icon="'icon'"></ui-gmap-markers>
+				<ui-gmap-polyline 
+					path="land.map.land4.line.path",
+					stroke="land.map.land4.line.stroke"
+					icons="land.map.land4.line.icons"
+					geodesic="true"
+					visible="true"
+					fit="true"
+					static="true">
+				</ui-gmap-polyline>
+			</ui-gmap-google-map>
+		</div>
+		<div class="col-lg-4 column-md-below">
+			<h2 class="land-subtitle" translate="howToGet.option.land.text5.title" translate-compile></h2>
+			<p translate="howToGet.option.land.text5.1" translate-compile></p>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row site-content">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h3 id="packages-transfer" translate="howToGet.option.land.text6.title" translate-compile></h3>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<td ng-repeat="head in land.landHeadTable">{{head}}</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="content in land.bodyLandPackages">
+							<td>{{content.origin}}</td>
+							<td>{{content.hour}}</td>
+							<td>{{content.destination}}</td>
+							<td>{{content.frequency}}</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>

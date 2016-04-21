@@ -1,0 +1,35 @@
+{
+  "name": "mdsp",
+  "version": "1.0.0",
+  "description": "MDSP",
+  "devDependencies": {
+    "bower": "^1.3.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "http-server": "^0.8.0",
+    "karma": "^0.12.24",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-cli": "~0.0.4",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "istanbul": "^0.3.2"
+  },
+  "dependencies": {
+    "angular": "v1.4.8",
+    "angular-route": "v1.4.8",
+    "bootstrap": "v3.3.6",
+    "lodash": "v3.10.1",
+    "jquery": "v1.12.0",
+    "angular-google-maps": "v2.2.1"
+  },
+  "scripts": {
+    "start": "http-server -a 0.0.0.0 -p 8001",
+    "test": "node node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "author": "Mauricio Farinelli"
+}

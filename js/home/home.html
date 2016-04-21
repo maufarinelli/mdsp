@@ -1,0 +1,66 @@
+<section class="home-video-wrapper">
+	<video class="home-video is-hidden-mobile" autoplay loop>
+		<source src="media/fim-de-tarde-farol.mp4" type="video/mp4">
+	</video>
+	<h1 class="home-title" translate="home.title" translate-compile></h1>
+	<h2 class="home-subtitle"><span ng-bind="localHour"></span><span translate="home.localTime" translate-compile></span></h2>
+</section>
+
+<div class="container-fluid">
+	<section class="row site-content">
+		<div class="col-lg-8 col-lg-offset-2">
+			<p translate="home.phrase1" translate-compile></p>
+		</div>
+	</section>
+</div>
+
+<section class="home-photo-background home-map">
+	<ui-gmap-google-map center='map.center' zoom='map.zoom' options="map.options">
+		<ui-gmap-markers models="marker" coords="'self'" icon="'icon'"></ui-gmap-markers>
+	</ui-gmap-google-map>
+	<div class="home-text-overlay">
+		<div class="col-lg-8 col-lg-offset-2">
+			<p translate="home.phrase2" translate-compile></p>
+		</div>
+	</div>
+</section>
+
+<div class="container-fluid">
+	<section class="row site-content">
+		<div class="col-lg-8 col-lg-offset-2">
+			<p translate="home.phrase3" translate-compile></p>
+		</div>
+	</section>
+</div>
+
+<section class="home-beach home-photo-background" angular-inview>
+	<div class="home-text-overlay">
+		<div class="col-lg-8 col-lg-offset-2">
+			<p translate="home.phrase4" translate-compile></p>
+		</div>
+	</div>
+</section>
+
+<div class="container-fluid">
+	<section class="row site-content">
+		<div class="col-lg-8 col-lg-offset-2">
+			<p translate="home.phrase5" translate-compile></p>
+		</div>
+	</section>
+</div>
+
+<section class="home-thingstodo home-photo-background">
+	<div class="home-text-overlay">
+		<div class="col-lg-8 col-lg-offset-2">
+			<p translate="home.phrase6" translate-compile></p>
+		</div>
+	</div>
+</section>
+
+<div class="container-fluid">
+	<section class="row site-content">
+		<div class="col-lg-8 col-lg-offset-2">
+			<p translate="home.phrase7" translate-compile></p>
+		</div>
+	</section>
+</div>

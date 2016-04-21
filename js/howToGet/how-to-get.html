@@ -1,0 +1,45 @@
+<how-to-get>
+	<section class="home-video-wrapper">
+		<img src="" alt="">
+	</section>
+
+	<section class="container-fluid">
+		<div class="row site-content ">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h1 translate="howToGet.title" translate-compile></h1>
+			</div>
+			<div class="col-lg-5 col-lg-offset-2">
+				<img src="https://maps.googleapis.com/maps/api/staticmap?center=Aeroporto+Internacional+de+Salvador,Bahia,Brazil&zoom=10&size=600x200&maptype=roadmap&markers=color:red%7Clabel:C%7C-12.9110977,-38.3334298&key=AIzaSyDMlNOTz98gOX5e2uU90hpl8Cl0Sp3q_g4">
+			</div>
+			<div class="col-lg-3">
+				<p translate="howToGet.option.abroad" translate-compile></p>
+				<!-- TODO: <p translate="howToGet.option.brazil" translate-compile></p> -->
+			</div>		
+		</div>
+	</section>
+
+	<section class="container-fluid">
+		<div class="row site-content">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2 translate="howToGet.threeOptions.title" translate-compile></h2>
+			</div>
+			<ul class="col-lg-8 col-lg-offset-2 nav nav-tabs">
+				<li role="presentation" 
+					ng-repeat="option in howToGet.options" 
+					ng-click="tabSelect(option, $event, $index)" 
+					ng-class="{'active': option.isSelected}">
+					<a href="{{option.hash}}">
+						<span class="nav-tab-details" ng-bind="option.title"></span>
+						<span class="nav-tab-details nav-tab-subtext" ng-bind="option.details1"></span>
+						<span class="nav-tab-details nav-tab-subtext" ng-bind="option.details2"></span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<air-plane class="howtoget-options" ng-show="howToGet.section.airplane.isActive"></air-plane>
+	<boat class="howtoget-options" ng-show="howToGet.section.boat.isActive"></boat>
+	<land class="howtoget-options" ng-show="howToGet.section.land.isActive"></land>
+</how-to-get>
+	
