@@ -50,16 +50,13 @@
         }); 
 
         $routeProvider.when('/hotels-and-pousadas', {
-            templateUrl: 'js/home/home.html',
-            controller: 'HomeController'
+            templateUrl: 'js/hotels/hotels.html'
         }); 
         $routeProvider.when('/hotels-et-pousadas', {
-            templateUrl: 'js/home/home.html',
-            controller: 'HomeController'
+            templateUrl: 'js/hotels/hotels.html'
         }); 
         $routeProvider.when('/hoteis-e-pousadas', {
-            templateUrl: 'js/home/home.html',
-            controller: 'HomeController'
+            templateUrl: 'js/hotels/hotels.html'
         }); 
 
         $routeProvider.when('/things-to-do', {

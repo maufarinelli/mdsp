@@ -1,5 +1,10 @@
 <hotels>
 	<section>
-		
+		{{hotelsCtrl.hotelsList}}
+		<ul>
+			<li ng-repeat="hotel in hotelsCtrl.hotelsList">
+				{{hotel}}
+			</li>
+		</ul>
 	</section>
 </hotels>

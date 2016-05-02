@@ -4,9 +4,8 @@
 	function hotelsDirective() {
 		return {
 			restrict: 'E',
-			templateUrl: 'js/hotels/hotels.html',
 			controller: 'HotelsController',
-			controllerAs: 'hotels'
+			controllerAs: 'hotelsCtrl'
 		};
 	}
 
