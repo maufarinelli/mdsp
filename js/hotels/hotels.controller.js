@@ -1,12 +1,12 @@
 (function(angular){
 	'use strict';
 
-	function HotelsController($scope, hotelsService) {
+	function HotelsController(hotelsService) {
 		var self = this;
 
 		hotelsService.getHotels().then(function(data) {
-			this.hotelsList = data;
-			console.log(this.hotelsList);
+			self.hotelsList = data;
+			console.log(self.hotelsList);
 		}, function() {
 
 		});

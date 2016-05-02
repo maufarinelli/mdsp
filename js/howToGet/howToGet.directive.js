@@ -1,7 +1,7 @@
 (function(angular) {
 	'use strict';
 
-	function howToGetDirective(uiGmapGoogleMapApi, HowToGetService, $compile) {
+	function howToGetDirective() {
 		return {
 			restrict: 'E',
 			controller: 'HowToGetController',
@@ -35,4 +35,5 @@
 
 	angular.module('howToGet', [])
 		.directive('howToGet', howToGetDirective);
+
 })(window.angular);
