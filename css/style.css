@@ -9,7 +9,7 @@
     display: none;
   }
 }
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 500px) {
   .nav > li > a {
     padding-left: 10px;
     padding-right: 10px;
@@ -221,4 +221,7 @@ a {
   .nav-tab-subtext {
     font-size: 11px;
   }
+}
+.hotels-list-item img {
+  max-height: 230px;
 }

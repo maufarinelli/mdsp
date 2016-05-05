@@ -4,9 +4,9 @@
 	function HotelsController(hotelsService) {
 		var self = this;
 
-		hotelsService.getHotels().then(function(data) {
-			self.hotelsList = data;
-			console.log(self.hotelsList);
+		hotelsService.getHotels().then(function(res) {
+			console.log(res.data);
+			self.hotelsList = res.data;
 		}, function() {
 
 		});

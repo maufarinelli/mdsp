@@ -10,7 +10,8 @@
         'inview',
         'home',
         'menu',
-        'howToGet'
+        'howToGet',
+        'hotels'
     ])
     .config(function(uiGmapGoogleMapApiProvider) {
         uiGmapGoogleMapApiProvider.configure({
