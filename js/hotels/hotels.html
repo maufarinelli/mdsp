@@ -1,6 +1,6 @@
 <hotels>
 	<section class="container-fluid">
-		<ul class="row list-unstyled hotels-list">
+		<ul class="row list-unstyled hotels-list" infinite-scroll='hotelsCtrl.loadMoreHotels()' infinite-scroll-disabled='hotelsCtrl.busy' infinite-scroll-distance='0'>
 			<li class="hotels-list-item col-lg-3 col-md-3 col-sm-4 col-xs-4" ng-repeat="hotel in hotelsCtrl.hotelsList">
 				<a style="display: inline-block" class="well well-sm" ng-href="{{hotel.URL}}">
 					<img ng-src="{{hotel.Photo}}" alt="{{hotel.Hotels}}">

@@ -9,6 +9,6 @@
 		};
 	}
 
-	angular.module('hotels', [])
+	angular.module('hotels', ['infinite-scroll'])
 		.directive('hotels', hotelsDirective);
 })(window.angular);
