@@ -6,7 +6,7 @@
             return {
                 'title.site': 'Morro de São Paulo Vacations - Des hôtels, restaurants, quoi faire et beaucoup plus',
 
-                'menu.home': 'Page d\'accueil',
+                'menu.home': 'MorroDeSaoPaulo.vacations',
                 'menu.howToGet': 'Comment venir',
                 'menu.hotels': 'Hôtels et "pousadas"',
                 'menu.thingsToDo': 'Quoi faire',

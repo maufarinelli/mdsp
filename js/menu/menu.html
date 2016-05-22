@@ -1,13 +1,8 @@
 <nav class="menu">
     <div class="menu-desktop">
-        <span class="logo menu-item" ng-repeat="menuItem in menu.menuItems | limitTo:1"
-              ng-class="{'is-activated': menu.isMenuItemActive(menuItem)}"
-              ng-click="menu.onMenuItemClick(menuItem)">
-            <a ng-click="menu.home()" href="{{menuItem.url}}"></a>
-        </span>
         <ul>
-            <li class="menu-item" ng-repeat="menuItem in menu.menuItems | limitTo:-3"
-                ng-class="{'is-activated': menu.isMenuItemActive(menuItem)}"
+            <li class="menu-item" ng-repeat="menuItem in menu.menuItems"
+                ng-class="{'is-active': menuItem.active, 'logo': $index == 0}"
                 ng-click="menu.onMenuItemClick(menuItem)">
                 <a href="{{menuItem.url}}">{{menuItem.text}}</a>
             </li>
@@ -16,14 +11,14 @@
 
     <div class="menu-mobile">
         <span class="logo menu-item" ng-repeat="menuItem in menu.menuItems | limitTo:1"
-              ng-class="{'is-activated': menu.isMenuItemActive(menuItem)}"
+              ng-class="{'is-active': menuItem.active}"
               ng-click="menu.onMenuItemClick(menuItem)">
-            <a ng-click="menu.home()" href="{{menuItem.url}}"></a>
+            <a ng-click="menu.home()" href="{{menuItem.url}}">{{menuItem.text}}</a>
         </span>
         <i class="menu-mobile-toggle" ng-click="menu.onMenuToggle()"></i>
         <ul ng-show="menu.isMenuOpened">
             <li class="menu-item" ng-repeat="menuItem in menu.menuItems | limitTo:-3"
-                ng-class="{'is-activated': menu.isMenuItemActive(menuItem)}"
+                ng-class="{'is-active': menuItem.active}"
                 ng-click="menu.onMenuItemClick(menuItem)">
                 <a href="{{menuItem.url}}">{{menuItem.text}}</a>
             </li>

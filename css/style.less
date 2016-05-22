@@ -33,7 +33,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 
-	border-bottom: 1px solid @color-blue;
+	border-bottom: 1px solid @menu-border;
 	box-shadow: 0 0 33px @color-yellow;
 }
 
@@ -60,15 +60,31 @@ a {
 	margin-bottom: 0;
 
 	ul {
+		margin-bottom: 0;
+		padding-left: 0;
 		list-style: none;
 	}
 
 	.menu-item {
 		display: inline-block;
 
+		&.is-active {
+			background-color: @menu-item-active;
+		}
+
 		a {
 			display: block;
 			padding: 15px;
+
+			&:hover {
+				text-decoration: none;
+				background-color: @menu-item-hover;
+			}
+
+			&:visited {
+				text-decoration: none;
+				background-color: @menu-item-active;
+			}
 		}
 	}
 }
@@ -268,5 +284,18 @@ a {
 .hotels-list-item {
 	img {
 		max-height: 230px;
+	}
+
+	a {
+		color: @font_light_color;
+
+		&:hover {
+			color: @font_dark_color;
+			text-decoration: none;
+		}
+	}
+
+	.well {
+		background-color: @bg-hotels;
 	}
 }
