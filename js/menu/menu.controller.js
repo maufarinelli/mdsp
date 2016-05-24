@@ -1,13 +1,8 @@
-'use strict'; 
-
 (function(angular){
-	function MenuController($scope, $rootScope, $location, $translate, enText, frText, ptText) {
-		var self = this,
-			traslatedTexts = {
-	            en: enText, 
-	            fr: frText, 
-	            pt: ptText
-	        };
+    'use strict';
+
+    function MenuController($scope, $rootScope, $location, languagesService) {
+		var self = this;
 
         function setMenuItems() {
             self.menuItems = [
@@ -38,10 +33,8 @@
             ];
         }
 
-        this.traslatedText = traslatedTexts.en;
+        this.traslatedText = languagesService.getTranslatedText();
         this.isMenuOpened = false;
-
-		$rootScope.currentLanguage = 'en';
 
         $rootScope.$on('$locationChangeSuccess', function(oldValue, newValue) {
             if(oldValue !== newValue) {
@@ -64,17 +57,12 @@
         });
 
 		this.changeLanguage = function(lang) {
-			$translate.use(lang);
-			$rootScope.currentLanguage = lang;
-			self.traslatedText = traslatedTexts[lang];
+            languagesService.changeLanguage(lang);
+            self.traslatedText = languagesService.getTranslatedText();
 		};
 
         this.onMenuToggle = function() {
             self.isMenuOpened = !self.isMenuOpened;
-        };
-
-        this.onMenuItemClick = function(menuItem) {
-
         };
 
         this.isMenuItemActive = function(url) {

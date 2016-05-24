@@ -1,6 +1,6 @@
-'use strict'; 
-
 (function(angular){
+	'use strict';
+	
 	function mainMenu() {
 		return {
 			restrict: 'E',
@@ -11,6 +11,6 @@
 		};
 	}
 
-	angular.module('menu', [])
+	angular.module('menu', ['languages'])
 		.directive('mainMenu', mainMenu);
 })(window.angular);

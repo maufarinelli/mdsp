@@ -72,7 +72,10 @@
                 'howToGet.option.land.text4.2': '2ème option: <b>Arriver à Mar Grande</b>, il y aura des <b>taxis et des camionnettes à l\'extérieur du port</b> qui font le transport à Valence. Il peut en coûter <b>entre R$ 12.00 et R$ 25.00 et le trajet dure environ 1 heure et 40 minutes</b>.',
                 'howToGet.option.land.text5.title': 'Valença à Morro de São Paulo (Maritime)',
                 'howToGet.option.land.text5.1': 'En arrivant à la petite <b>gare maritime de Valença</b>, il y a plusieurs <b>bateaux que font le voyage à Morro de São Paulo</b>. Il peut coûter autour de <b>R$ 15,00 et le voyage se fait en 15 minutes</b>.',
-                'howToGet.option.land.text6.title': 'Les horaires de navettes de la Cassi Tourisme et Tourisme Portella:'
+                'howToGet.option.land.text6.title': 'Les horaires de navettes de la Cassi Tourisme et Tourisme Portella:',
+
+                'thingsToDo.title': 'Quoi faire à Morro de São Paulo',
+                'thingsToDo.temporary.text': 'Le contenu de cette page est en phase de production. Retournez bientôt.',
             };
         });
 })(window.angular);

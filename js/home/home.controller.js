@@ -1,6 +1,6 @@
-'use strict'; 
-
 (function(angular){
+	'use strict';
+	
 	function HomeController($scope, $window, uiGmapGoogleMapApi) {
 		var date = new Date(),
 			options = {

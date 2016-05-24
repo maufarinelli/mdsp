@@ -8,10 +8,12 @@
         'i18n',
         'uiGmapgoogle-maps',
         'inview',
+        'languages',
         'home',
         'menu',
         'howToGet',
-        'hotels'
+        'hotels',
+        'thingsToDo'
     ])
     .config(function(uiGmapGoogleMapApiProvider) {
         uiGmapGoogleMapApiProvider.configure({
@@ -61,16 +63,13 @@
         }); 
 
         $routeProvider.when('/things-to-do', {
-            templateUrl: 'js/home/home.html',
-            controller: 'HomeController'
+            templateUrl: 'js/thingsToDo/things-to-do.html',
         }); 
         $routeProvider.when('/quoi-faire', {
-            templateUrl: 'js/home/home.html',
-            controller: 'HomeController'
+            templateUrl: 'js/thingsToDo/things-to-do.html'
         }); 
         $routeProvider.when('/o-que-fazer', {
-            templateUrl: 'js/home/home.html',
-            controller: 'HomeController'
+            templateUrl: 'js/thingsToDo/things-to-do.html'
         }); 
 
         $routeProvider.otherwise({

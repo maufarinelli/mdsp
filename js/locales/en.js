@@ -74,6 +74,9 @@
                 'howToGet.option.land.text5.1': 'Arriving at the small <b>Valencia maritime terminal</b>, there are several <b>boats and speedboats that make the trip to Morro de São Paulo</b>. It can cost around <b>R$ 15.00 and the trip is done in 15 minutes</b>.',
                 'howToGet.option.land.text6.title': 'Cassi Tourism and Portella Tourism shuttle schedule:',
 
+                'thingsToDo.title': 'Things to do in Morro de São Paulo',
+                'thingsToDo.temporary.text': 'The contents of this page is being produced. Please come back later.',
+
             };
         });
 })(window.angular);

@@ -218,6 +218,45 @@ a {
 .nav-tab-details {
   display: block;
 }
+.howtoget-photo-wrapper {
+  min-height: 350px;
+  background: url('/img/morro-de-sao-paulo-visto-do-farol-768x576.jpg') 0 -200px no-repeat;
+}
+@media screen and (min-width: 768px) and (max-width: 960px) {
+  .howtoget-photo-wrapper {
+    background: url('/img/morro-de-sao-paulo-visto-do-farol-1024x768.jpg') 0 -200px no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 961px) and (max-width: 1024px) {
+  .howtoget-photo-wrapper {
+    background: url('/img/morro-de-sao-paulo-visto-do-farol-1024x768.jpg') 0 -260px no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .howtoget-photo-wrapper {
+    background: url('/img/morro-de-sao-paulo-visto-do-farol-1920x1440.jpg') 0 -260px no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .howtoget-photo-wrapper {
+    min-height: 500px;
+    background: url('/img/morro-de-sao-paulo-visto-do-farol-1920x1440.jpg') 0 -370px no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1540px) {
+  .howtoget-photo-wrapper {
+    min-height: 500px;
+    background-position: 0 -550px;
+    background-size: cover;
+  }
+}
+.howtoget-title {
+  margin-top: 0;
+}
 .howtoget-options .angular-google-map-container {
   height: 250px;
 }
@@ -246,5 +285,11 @@ a {
   text-decoration: none;
 }
 .hotels-list-item .well {
+  display: block;
   background-color: #E2F6FF;
+}
+.hotels-list-item-title {
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
