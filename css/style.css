@@ -21,6 +21,9 @@ img {
 a {
   cursor: pointer;
 }
+.page-title {
+  margin-top: 0;
+}
 .menu {
   display: flex;
   justify-content: space-between;
@@ -57,9 +60,12 @@ a {
 .menu-desktop .menu-item.is-active {
   background-color: #E2F6FF;
 }
+.menu-desktop .menu-item.logo img {
+  padding: 10px 0 0 15px;
+}
 .menu-desktop .menu-item a {
   display: block;
-  padding: 15px;
+  padding: 0 15px 15px;
 }
 .menu-desktop .menu-item a:hover {
   text-decoration: none;
@@ -83,12 +89,21 @@ a {
 .menu-mobile .menu-item {
   border-bottom: 1px solid #333;
 }
+.menu-mobile .menu-item.logo {
+  border-bottom: none;
+}
+.menu-mobile .menu-item.logo a {
+  padding: 0 15px 15px;
+}
 .menu-mobile .menu-item:last-child {
   border-bottom: none;
 }
 .menu-mobile .menu-item a {
   display: block;
   padding: 15px;
+}
+.menu-mobile .menu-item img {
+  padding: 10px 0 0 15px;
 }
 @media (min-width: 640px) {
   .menu-desktop {
@@ -253,9 +268,6 @@ a {
     background-position: 0 -550px;
     background-size: cover;
   }
-}
-.howtoget-title {
-  margin-top: 0;
 }
 .howtoget-options .angular-google-map-container {
   height: 250px;

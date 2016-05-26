@@ -76,9 +76,15 @@ a {
 			background-color: @menu-item-active;
 		}
 
+		&.logo {
+			img {
+				padding: 10px 0 0 15px;
+			}
+		}
+
 		a {
 			display: block;
-			padding: 15px;
+			padding: 0 15px 15px;
 
 			&:hover {
 				text-decoration: none;
@@ -108,6 +114,14 @@ a {
 	.menu-item {
 		border-bottom: 1px solid @font_color;
 
+		&.logo {
+			border-bottom: none;
+
+			a {
+				padding: 0 15px 15px;
+			}
+		}
+
 		&:last-child {
 			border-bottom: none;
 		}
@@ -115,6 +129,10 @@ a {
 		a {
 			display: block;
 			padding: 15px;
+		}
+
+		img {
+			padding: 10px 0 0 15px;
 		}
 	}
 }

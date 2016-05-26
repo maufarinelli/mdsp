@@ -4,6 +4,7 @@
             <li class="menu-item" ng-repeat="menuItem in menu.menuItems"
                 ng-class="{'is-active': menuItem.active, 'logo': $index == 0}"
                 ng-click="menu.onMenuItemClick(menuItem)">
+                <img ng-if="$index == 0" src="img/morro-de-sao-paulo-logo.png" alt="Morro de São Paulo">
                 <a href="{{menuItem.url}}">{{menuItem.text}}</a>
             </li>
         </ul>
@@ -13,6 +14,7 @@
         <span class="logo menu-item" ng-repeat="menuItem in menu.menuItems | limitTo:1"
               ng-class="{'is-active': menuItem.active}"
               ng-click="menu.onMenuItemClick(menuItem)">
+            <img src="img/morro-de-sao-paulo-logo.png" alt="Morro de São Paulo">
             <a ng-click="menu.home()" href="{{menuItem.url}}">{{menuItem.text}}</a>
         </span>
         <i class="menu-mobile-toggle" ng-click="menu.onMenuToggle()"></i>
