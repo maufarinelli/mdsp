@@ -71,7 +71,7 @@
                 function setBackgroundPositionParallax() {
                     var viewportHeight = $window.height(),
                         adjuster = getAdjuster(),
-                        pos = $window.scrollTop();
+                        pos = $window.scrollTop(),
                         scrolltop = (document.documentElement.scrollTop ?
                             document.documentElement.scrollTop :
                             document.body.scrollTop);

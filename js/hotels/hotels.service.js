@@ -3,8 +3,7 @@
 
     function hotelsService($http) {
         this.getHotels = function() {
-            //return $http.get('http://farinelliwebdevelopment.com/mdsp_be/get-mdsp-hotels.php', {});
-            return $http.get('js/hotels/hotels.json', {}); //TODO, remove before go prod
+            return $http.get('http://morrodesaopaulo.vacations/mdsp_be/get-mdsp-hotels.php', {});
         };
     }
 

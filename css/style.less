@@ -1,12 +1,5 @@
 @import '_variables';
 
-.debug {
-	position: fixed;
-	top: 10px;
-	right: 10px;
-	z-index: 1000;
-}
-
 @media screen and (max-width:768px) {
 	.is-hidden-mobile {
 		display: none;
@@ -76,15 +69,9 @@ a {
 			background-color: @menu-item-active;
 		}
 
-		&.logo {
-			img {
-				padding: 10px 0 0 15px;
-			}
-		}
-
 		a {
 			display: block;
-			padding: 0 15px 15px;
+			padding: 15px;
 
 			&:hover {
 				text-decoration: none;
@@ -94,6 +81,16 @@ a {
 			&:visited {
 				text-decoration: none;
 				background-color: @menu-item-active;
+			}
+		}
+
+		&.logo {
+			img {
+				padding: 10px 0 0 15px;
+			}
+
+			a {
+				padding-top: 0;
 			}
 		}
 	}
