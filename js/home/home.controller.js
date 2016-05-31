@@ -2,7 +2,7 @@
 	'use strict';
 	
 	function HomeController($scope, $window, uiGmapGoogleMapApi) {
-		var date = new Date(),
+		/*var date = new Date(),
 			options = {
 			    timeZone: 'America/Fortaleza',
 			    year: 'numeric', month: 'numeric', day: 'numeric',
@@ -12,7 +12,7 @@
 		   localDate = new Date(formatter.format(date)),
 		   minutes = localDate.getMinutes().length === 1 ? '0'+localDate.getMinutes() : localDate.getMinutes();
 
-		$scope.localHour = localDate.getHours() + ':' + minutes;
+		$scope.localHour = localDate.getHours() + ':' + minutes;*/
 
 		function changeBackgroundPosition() {
 			if($window.innerWidth > 1200) {
