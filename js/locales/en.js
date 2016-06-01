@@ -4,7 +4,9 @@
     angular.module('i18n')
         .factory('enText', function() {
             return {
-                'title.site': 'Morro de São Paulo Vacations - Hotels, Restaurants, What to do and much more',
+                'title.site': 'Morro de São Paulo Vacations guide - hotels, restaurants, things to do and much more',
+                'description.site': 'The most complete guide of Morro de São Paulo, in Bahia\'s Province, Brazil. Everything you want to know about hotels where to stay, restaurants, things to do in Morro, etc... to have a great vacation in this paradise',
+                'keywords.site': 'Morro de São Paulo, Morro, Bahia, vacations brazil, vacations bahia, vacations Morro de São Paulo, hotels Morro de São Paulo, how to get to Morro de São Paulo, things to do in Morro de São Paulo',
 
                 'menu.home': 'MorroDeSaoPaulo.vacations',
                 'menu.howToGet': 'How to get here',
@@ -21,10 +23,10 @@
                 'home.phrase1': '<b>Morro de São Paulo</b> is one of those places <b>people just want to stay forever</b>. It has <b>4 beautiful beaches</b> with <b>crystal clear water</b> amidst the <b>coral reefs</b> which delights any visitor.',
                 'home.phrase2': 'Located in Tinharé island, south of Salvador, capital of Bahia\'s Province, it is <b>blessed by Nature and has a welcoming village</b> inviting you to go for a walk any time of the day.',
                 'home.phrase3': 'There is no cars in the island, but believe me, you won\'t miss your vehicle <b>if you like to walk, breathe fresh air and feel that pleasant smell of a tropical beach.',
-                'home.phrase4': 'Are you looking for a <b>beatiful and very quiet beach</b>? Morro de São Paulo has it! Do you want a <b>busier beach and party</b>? Morro de São Paulo has too. Do you prefer to <b>walk by the sea</b>? Or to <b>swim a bit and stay afloat</b> for hours? Morro de São Paulo is a <b>place for everyone</b>. <a href="#">Read more</a>',
-                'home.phrase5': '<b>Nightlife</b> has also <b>a lot of options</b>. You can find party on the <b>nightclubs</b> or <b>romantic moments in some restaurants</b> with some live music. You can find bars to have some <b>cold beers with your friends</b> or <b>restaurants for families with kids</b>. Restaurants facing the sea or in the middle of the village. <b>Morro de São Paulo has absolutely everything</b>. In fact, <b>food is one of the strengths</b> of Morro de São Paulo. <a href="#">Read more</a>',
-                'home.phrase6': 'In addition to the beaches you must go, Morro de São Paulo has <b>several tours and activities</b> to do. <b>Go up on the lighthouse hill</b> to admire the view and <b>go down the tyrolean traverse</b>, take a <b>boat ride around the entire island</b>, <b>diving or snorkeling</b>, see the <b>sunset in the fortress</b>, <b>surf</b> in the first beach and much more. <a href="#">Read more</a>',
-                'home.phrase7': 'Morro de São Paulo has <b>hotels and inns</b> that please <b>every kind of tourist</b>. <b>Quiet hotels by the sea</b>, <b>bed and breakfast</b> and <b>hostels</b> in the village, or <b>very sophisticated hotels</b>. Morro de São Paulo has the kind of accommodation you are looking for. <a href="#">Read more</a>', 
+                'home.phrase4': 'Are you looking for a <b>beatiful and very quiet beach</b>? Morro de São Paulo has it! Do you want a <b>busier beach and party</b>? Morro de São Paulo has too. Do you prefer to <b>walk by the sea</b>? Or to <b>swim a bit and stay afloat</b> for hours? Morro de São Paulo is a <b>place for everyone</b>.',
+                'home.phrase5': '<b>Nightlife</b> has also <b>a lot of options</b>. You can find party on the <b>nightclubs</b> or <b>romantic moments in some restaurants</b> with some live music. You can find bars to have some <b>cold beers with your friends</b> or <b>restaurants for families with kids</b>. Restaurants facing the sea or in the middle of the village. <b>Morro de São Paulo has absolutely everything</b>. In fact, <b>food is one of the strengths</b> of Morro de São Paulo.',
+                'home.phrase6': 'In addition to the beaches you must go, Morro de São Paulo has <b>several tours and activities</b> to do. <b>Go up on the lighthouse hill</b> to admire the view and <b>go down the tyrolean traverse</b>, take a <b>boat ride around the entire island</b>, <b>diving or snorkeling</b>, see the <b>sunset in the fortress</b>, <b>surf</b> in the first beach and much more.',
+                'home.phrase7': 'Morro de São Paulo has <b>hotels and inns</b> that please <b>every kind of tourist</b>. <b>Quiet hotels by the sea</b>, <b>bed and breakfast</b> and <b>hostels</b> in the village, or <b>very sophisticated hotels</b>. Morro de São Paulo has the kind of accommodation you are looking for. <a href="#/hotels-and-pousadas">Read more</a>',
 
                 'howToGet.title': 'How to get here, at Morro de São Paulo?',
                 'howToGet.option.abroad': '<b>Most tourists arrive by plane in Salvador</b>, capital of Bahia, in the Dep. Luis Eduardo Magalhaes Airport.',
