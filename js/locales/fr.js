@@ -76,6 +76,9 @@
                 'howToGet.option.land.text5.1': 'En arrivant à la petite <b>gare maritime de Valença</b>, il y a plusieurs <b>bateaux que font le voyage à Morro de São Paulo</b>. Il peut coûter autour de <b>R$ 15,00 et le voyage se fait en 15 minutes</b>.',
                 'howToGet.option.land.text6.title': 'Les horaires de navettes de la Cassi Tourisme et Tourisme Portella:',
 
+                'hotels.title': 'Hotels, chambre d\'hôtes et "pousadas"',
+                'hotels.subtitle': 'Trouvez le type de logement que vous recherchez à Morro de São Paulo',
+
                 'thingsToDo.title': 'Quoi faire à Morro de São Paulo',
                 'thingsToDo.temporary.text': 'Le contenu de cette page est en phase de production. Retournez bientôt.',
             };

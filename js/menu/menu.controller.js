@@ -65,6 +65,10 @@
             self.isMenuOpened = !self.isMenuOpened;
         };
 
+        this.onMenuItemClick = function() {
+            self.onMenuToggle();
+        };
+
         this.isMenuItemActive = function(url) {
             return $location.url() === url.substring(2);
         }

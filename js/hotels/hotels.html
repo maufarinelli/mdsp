@@ -1,5 +1,12 @@
 <hotels>
 	<section class="container-fluid">
+		<div class="row site-content">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h1 translate="hotels.title"></h1>
+				<h2 translate="hotels.subtitle"></h2>
+			</div>
+		</div>
+
 		<ul class="row list-unstyled hotels-list" infinite-scroll='hotelsCtrl.loadMoreHotels()' infinite-scroll-disabled='hotelsCtrl.busy' infinite-scroll-distance='0'>
 			<li class="hotels-list-item col-lg-3 col-md-3 col-sm-4 col-xs-6" ng-repeat="hotel in hotelsCtrl.hotelsList">
 				<a class="well well-sm" ng-href="{{hotel.URL}}">

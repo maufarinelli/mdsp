@@ -44,6 +44,8 @@
         		longitude: -38.9235562,
         		id: 1
 		    }];
+
+			$scope.htmlReady();
     	});
 	}
 

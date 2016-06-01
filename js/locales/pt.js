@@ -76,6 +76,9 @@
                 'howToGet.option.land.text5.1': 'Chegando ao pequeno <b>terminal de embarcações de Valença</b>, existem diversas <b>lanchas e barcos que fazem o trajeto até Morro</b>. O valor também pode varias em torno de <b>R$ 15,00 e o trajeto é feito em apenas 15 minutos</b>.',
                 'howToGet.option.land.text6.title': 'Horários do translado da Cassi Turismo e Portella Turismo:',
 
+                'hotels.title': 'Hotéis, hostels e pousadas',
+                'hotels.subtitle': 'Encontre o tipo de acomodação que você está procurando em Morro de São Paulo',
+
                 'thingsToDo.title': 'Coisas para fazer em Morro de São Paulo',
                 'thingsToDo.temporary.text': 'O conteúdo desta página está sendo produzido. Volte em breve',
             };
