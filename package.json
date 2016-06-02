@@ -18,7 +18,8 @@
     "karma-jasmine": "^0.1.5",
     "karma-phantomjs-launcher": "^0.1.4",
     "karma-html2js-preprocessor": "^0.1.0",
-    "istanbul": "^0.3.2"
+    "istanbul": "^0.3.2",
+    "phantomjs-prebuilt": "2.1.7"
   },
   "dependencies": {
     "angular": "v1.4.8",

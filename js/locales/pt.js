@@ -13,6 +13,10 @@
                 'menu.hotels': 'Hotéis e pousadas',
                 'menu.thingsToDo': 'O que fazer',
 
+                'submenu.howToGet': 'Como chegar',
+                'submenu.hotels': 'Hotéis',
+                'submenu.thingsToDo': 'O que fazer',
+
                 'menu.url.home': '/#/hoteis-pousadas-restaurantes-informacao',
                 'menu.url.howToGet': '/#/como-chegar',
                 'menu.url.hotels': '/#/hoteis-e-pousadas',
@@ -34,16 +38,16 @@
                 'howToGet.threeOptions.title': 'Após chegar a Salvador, você tem 3 opções:',
 
                 'howToGet.option1': 'Transfer Aéreo',
-                'howToGet.option1.details1': 'Preço: até R$ 465,00',
-                'howToGet.option1.details2': 'Tempo: 25 minutos',
+                'howToGet.option1.details1': '$: até R$ 465,00',
+                'howToGet.option1.details2': 'H: 25 minutos',
                 
                 'howToGet.option2': 'Marítimo',
-                'howToGet.option2.details1': 'Preço: + ou - R$ 80,00',
-                'howToGet.option2.details2': 'Tempo: 2:00 à 2:30 hrs',
+                'howToGet.option2.details1': '$: + ou - R$ 80,00',
+                'howToGet.option2.details2': 'H: 2:00 à 2:30 hrs',
 
                 'howToGet.option3': 'Terrestre e marítimo',
-                'howToGet.option3.details1': 'Preço: + ou - R$ 110,00',
-                'howToGet.option3.details2': 'Tempo: em torno de 4 hrs',
+                'howToGet.option3.details1': '$: + ou - R$ 110,00',
+                'howToGet.option3.details2': 'H: em torno de 4 hrs',
 
                 'howToGet.option.avion.text1': '<b>No Aeroporto de Salvador</b> (Dep. Luís Eduardo Magalhães), você encontrará lojas da Abaeté e da Lider, que <b>são algumas das empresa responsáveis pelo Transfer Aéreo em pequenos aviões</b> bi-motores com capacidade máxima de 8 pessoas.',
                 'howToGet.option.avion.text2': '<b>Existem outras empresas</b> também como a Axé, <b>com os seguintes vôos</b>:',

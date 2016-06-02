@@ -13,6 +13,10 @@
                 'menu.hotels': 'Hotels and Inns',
                 'menu.thingsToDo': 'Things to do',
 
+                'submenu.howToGet': 'How to get',
+                'submenu.hotels': 'Hotels',
+                'submenu.thingsToDo': 'Things to do',
+
                 'menu.url.home': '/#/hotels-pousadas-restaurants-info',
                 'menu.url.howToGet': '/#/how-to-get-here',
                 'menu.url.hotels': '/#/hotels-and-pousadas',
@@ -34,16 +38,16 @@
                 'howToGet.threeOptions.title': 'After arriving at Salvador, you have 3 options:',
 
                 'howToGet.option1': 'By airplane',
-                'howToGet.option1.details1': 'Price: up to R$ 465,00',
-                'howToGet.option1.details2': 'Duration: 25 minutes',
+                'howToGet.option1.details1': '$: up to R$ 465,00',
+                'howToGet.option1.details2': 'H: 25 minutes',
 
                 'howToGet.option2': 'By boat',
-                'howToGet.option2.details1': 'Price: around R$ 80,00',
-                'howToGet.option2.details2': 'Duration: 2:00h to 2:30h',
+                'howToGet.option2.details1': '$: around R$ 80,00',
+                'howToGet.option2.details2': 'H: 2:00h to 2:30h',
 
                 'howToGet.option3': 'Land and sea',
-                'howToGet.option3.details1': 'Price: around R$ 110,00',
-                'howToGet.option3.details2': 'Duration: up to 4 hours',
+                'howToGet.option3.details1': '$: around R$ 110,00',
+                'howToGet.option3.details2': 'H: up to 4 hours',
 
                 'howToGet.option.avion.text1': '<b>At the Salvador Airport</b> (Dep. Luís Eduardo Magalhães), you will find the Abaeté and Lider stores, which are <b>some of the company<b/> responsible for the <b>flight in small aircrafts</b> for 06-08 passengers.',
                 'howToGet.option.avion.text2': 'There are <b>other companies</b> as well as the Axé, with the <b>following flights schedule</b>:',
