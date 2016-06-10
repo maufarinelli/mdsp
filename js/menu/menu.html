@@ -3,8 +3,10 @@
         <ul>
             <li class="menu-item" ng-repeat="menuItem in menu.menuItems"
                 ng-class="{'is-active': menuItem.active, 'logo': $index == 0}">
-                <img ng-if="$index == 0" src="img/morro-de-sao-paulo-logo.png" alt="Morro de São Paulo">
-                <a href="{{menuItem.url}}">{{menuItem.text}}</a>
+                <a href="{{menuItem.url}}">
+                    <img ng-if="$index == 0" src="img/morro-de-sao-paulo-logo.png" alt="Morro de São Paulo">
+                    {{menuItem.text}}
+                </a>
             </li>
         </ul>
     </div>

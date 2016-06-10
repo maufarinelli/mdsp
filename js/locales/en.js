@@ -84,8 +84,32 @@
                 'hotels.subtitle': 'Find the kind of accommodation you are looking for in Morro de São Paulo',
 
                 'thingsToDo.title': 'Things to do in Morro de São Paulo',
-                'thingsToDo.temporary.text': 'The contents of this page is being produced. Please come back later.',
+                'thingsToDo.sports.subtitle': 'Sports',
+                'thingsToDo.leisure.subtitle': 'Leisure',
+                'thingsToDo.tours.subtitle': 'Tours',
 
+                'thingsToDo.sport1.label': 'Dive',
+                'thingsToDo.sport1.url': '/#/sports',
+                'thingsToDo.sport2.label': 'Snorkeling',
+                'thingsToDo.sport2.url': '/#/sports',
+                'thingsToDo.sport3.label': 'Surf',
+                'thingsToDo.sport3.url': '/#/sports',
+                'thingsToDo.sport4.label': 'Kayaking',
+                'thingsToDo.sport4.url': '/#/sports',
+
+                'thingsToDo.leisure1.label': 'Waking along the beaches',
+                'thingsToDo.leisure1.url': '/#/leisure',
+                'thingsToDo.leisure2.label': 'Village and its history',
+                'thingsToDo.leisure2.url': '/#/leisure',
+                'thingsToDo.leisure3.label': 'Sunset in the fortress',
+                'thingsToDo.leisure3.url': '/#/leisure',
+
+                'thingsToDo.tour1.label': 'Around the island of Tinharé',
+                'thingsToDo.tour1.url': '/#/tours',
+                'thingsToDo.tour2.label': 'To Garapuá',
+                'thingsToDo.tour2.url': '/#/tours',
+                'thingsToDo.tour3.label': 'To Ponta do Curral',
+                'thingsToDo.tour3.url': '/#/tours'
             };
         });
 })(window.angular);

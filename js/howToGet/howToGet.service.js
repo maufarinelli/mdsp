@@ -16,21 +16,21 @@
 					hash: '#howtoget-airplane',
 					title: $filter('translate')('howToGet.option1'),
 					details1: $filter('translate')('howToGet.option1.details1'),
-					details2: $filter('translate')('howToGet.option1.details2'),
+					details2: $filter('translate')('howToGet.option1.details2')
 				},
 				{
 					id: 'boat',
 					hash: '#howtoget-boat',
 					title: $filter('translate')('howToGet.option2'),
 					details1: $filter('translate')('howToGet.option2.details1'),
-					details2: $filter('translate')('howToGet.option2.details2'),
+					details2: $filter('translate')('howToGet.option2.details2')
 				},
 				{
 					id: 'land',
 					hash: '#howtoget-land',
 					title: $filter('translate')('howToGet.option3'),
 					details1: $filter('translate')('howToGet.option3.details1'),
-					details2: $filter('translate')('howToGet.option3.details2'),
+					details2: $filter('translate')('howToGet.option3.details2')
 				}
 			];
 

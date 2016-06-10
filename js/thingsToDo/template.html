@@ -1,0 +1,43 @@
+<section class="howtoget-photo-wrapper"></section>
+<section>
+    <div class="container-fluid">
+        <div class="row site-content">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1 class="page-title" translate="thingsToDo.title"></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row site-content">
+            <div class="col-lg-8 col-lg-offset-2">
+                <ul class="list-unstyled">
+                    <li class="col-lg-4">
+                        <span translate="thingsToDo.sports.subtitle"></span>
+                        <ul class="list-unstyled">
+                            <li ng-repeat="sport in thingsToDo.sports">
+                                <a ng-href="sport.url">{{sport.label}}</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-lg-4">
+                        <span translate="thingsToDo.leisure.subtitle"></span>
+                        <ul class="list-unstyled">
+                            <li ng-repeat="leisure in thingsToDo.leisure">
+                                <a ng-href="leisure.url">{{leisure.label}}</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="col-lg-4" >
+                        <span translate="thingsToDo.tours.subtitle"></span>
+                        <ul class="list-unstyled">
+                            <li ng-repeat="tour in thingsToDo.tours">
+                                <a ng-href="tour.url">{{tour.label}}</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

@@ -84,7 +84,32 @@
                 'hotels.subtitle': 'Encontre o tipo de acomodação que você está procurando em Morro de São Paulo',
 
                 'thingsToDo.title': 'Coisas para fazer em Morro de São Paulo',
-                'thingsToDo.temporary.text': 'O conteúdo desta página está sendo produzido. Volte em breve',
+                'thingsToDo.sports.subtitle': 'Esportes',
+                'thingsToDo.leisure.subtitle': 'Lazer',
+                'thingsToDo.tours.subtitle': 'Passeios',
+
+                'thingsToDo.sport1.label': 'Mergulho',
+                'thingsToDo.sport1.url': '/#/esportes',
+                'thingsToDo.sport2.label': 'Snorkeling',
+                'thingsToDo.sport2.url': '/#/esportes',
+                'thingsToDo.sport3.label': 'Surf',
+                'thingsToDo.sport3.url': '/#/esportes',
+                'thingsToDo.sport4.label': 'Caiaque',
+                'thingsToDo.sport4.url': '/#/esportes',
+
+                'thingsToDo.leisure1.label': 'Caminhada pelas praias',
+                'thingsToDo.leisure1.url': '/#/lazer',
+                'thingsToDo.leisure2.label': 'Vilarejo e sua história',
+                'thingsToDo.leisure2.url': '/#/lazer',
+                'thingsToDo.leisure3.label': 'Pôr do sol do forte',
+                'thingsToDo.leisure3.url': '/#/lazer',
+
+                'thingsToDo.tour1.label': 'Volta à ilha de Tinharé',
+                'thingsToDo.tour1.url': '/#/passeios',
+                'thingsToDo.tour2.label': 'Para Garapuá',
+                'thingsToDo.tour2.url': '/#/passeios',
+                'thingsToDo.tour3.label': 'Para a Ponta do Curral',
+                'thingsToDo.tour3.url': '/#/passeios'
             };
         });
 })(window.angular);
