@@ -109,7 +109,23 @@
                 'thingsToDo.tour2.label': 'Para Garapuá',
                 'thingsToDo.tour2.url': '/#/passeios',
                 'thingsToDo.tour3.label': 'Para a Ponta do Curral',
-                'thingsToDo.tour3.url': '/#/passeios'
+                'thingsToDo.tour3.url': '/#/passeios',
+
+                'thingsToDo.sports.dive.subtitle': 'Mergulho com cilindro',
+                'thingsToDo.sports.dive.text1': 'O Morro de São Paulo é um <b>paraíso para os amantes do mergulho</b> e a Bahia é abençoada com suas <;>águas em torno 27°C</b> e diversas espécies marinhas como polvos, lagostas além de uma centena de espécies de peixes.',
+                'thingsToDo.sports.dive.text2': 'Existem algumas empresas que dão cursos e alugam equipamentos para o mergulho de cilindro, como a <a target="_blank" href="https://www.facebook.com/BluesDivers">Blues Divers</a>, localizada na Terceira Praia.',
+                'thingsToDo.sports.dive.text3': 'Os <b>melhores meses</b> para a prática do mergulho são <b>novembro, dezembro, janeiro, fevereiro e março</b>, ou seja, no verão. Porém é possível mergulhar ao longo do ano todo. Tente se informar sobre as condições com as companhias de mergulho do Morro.',
+                'thingsToDo.sports.dive.text4': 'Existem vários bons pontos de mergulho no Morro, como:',
+                'thingsToDo.sports.diving.option1': 'os Recifes de Itatimirim (profundidade de até 25 metros), à 20 minutos de barco da Primeira Praia, em mar aberto. Nestes recifes você encotrará algumas pequenas grutas (indicadas para aqueles que já possuem experiência com mergulho).',
+                'thingsToDo.sports.diving.option2': 'os Recifes da Pedra do Moleque (profundidade de 1 à 8 metros), na Primeira Praia.',
+                'thingsToDo.sports.diving.option3': 'os Paredões de Gamboa (profundidade de até 12 metros) à 10 minutos de barco da praia de Gamboa.',
+                'thingsToDo.sports.diving.option4': 'os Recifes do Forte (profundidade de 3 à 12 metros), bem perto da Primeira Praia.',
+                'thingsToDo.sports.diving.option5': 'o Paredão Real (profundidade de 12 à 48 metros) coberto de corais.',
+                'thingsToDo.sports.diving.option6': 'a Pedra do Benedito (profundidade de 25 metros), à 45 minutos de barco da Primeira Praia.',
+                'thingsToDo.sports.diving.option7': 'os Recifes de Caitá (profundidade de 5 à 18 metros), à 15 minutos de barco, à partir da Terceira Praia',
+                'thingsToDo.sports.diving.option8': 'os Recifes de Itatiba (profundidade de 12 à 25 metros), à 45 minutos de barco da Terceira Praia. É um recife bem longo, com fundo bastante acidentado.',
+                'thingsToDo.sports.diving.option9': 'a Pedra dos Meros (profundidade de 20 à 35 metros), à 1 hora e 20 minutos de barco, localizada já em mar aberto.',
+                'thingsToDo.sports.diving.option10': 'o Naufrágio da Chata (profundidade de 20 à 35 metros), à 2 horas de barco você encontrará o rebocador naufragado, que não está em excelentes condições.'
             };
         });
 })(window.angular);

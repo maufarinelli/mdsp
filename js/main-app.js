@@ -63,14 +63,24 @@
         }); 
 
         $routeProvider.when('/things-to-do', {
-            templateUrl: 'js/thingsToDo/things-to-do.html',
+            templateUrl: 'js/thingsToDo/things-to-do.html'
         }); 
         $routeProvider.when('/quoi-faire', {
             templateUrl: 'js/thingsToDo/things-to-do.html'
         }); 
         $routeProvider.when('/o-que-fazer', {
             templateUrl: 'js/thingsToDo/things-to-do.html'
-        }); 
+        });
+
+        $routeProvider.when('/things-to-do/sports', {
+            template: '<sports></sports>'
+        });
+        $routeProvider.when('/quoi-faire/sports', {
+            templateUrl: 'js/thingsToDo/sports/sports.html'
+        });
+        $routeProvider.when('/o-que-fazer/esportes', {
+            templateUrl: 'js/thingsToDo/sports/sports.html'
+        });
 
         $routeProvider.otherwise({
             redirectTo: '/hotels-pousadas-restaurants-info'

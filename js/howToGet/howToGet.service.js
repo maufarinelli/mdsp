@@ -1,7 +1,7 @@
 (function(angular) {
 	'use strict';
 	
-	function HowToGetService($rootScope, $filter, uiGmapGoogleMapApi) {
+	function HowToGetService($rootScope, $filter) {
 		var options, 
 			tableHeads, 
 			tableAxeCompany, 

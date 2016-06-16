@@ -109,7 +109,23 @@
                 'thingsToDo.tour2.label': 'À Garapuá',
                 'thingsToDo.tour2.url': '/#/tours',
                 'thingsToDo.tour3.label': 'À Ponta do Curral',
-                'thingsToDo.tour3.url': '/#/tours'
+                'thingsToDo.tour3.url': '/#/tours',
+
+                'thingsToDo.sports.dive.subtitle': 'Plonger',
+                'thingsToDo.sports.dive.text1': 'Le Morro de Sao Paulo est un <b>paradis pour les amateurs de la plongée</b> et Bahia est béni avec <b>l\'eau autour de 27°C</b> et plusieurs espèces marins telles que les poulpes, langoustes et une centaine d\'espècea de poissons.',
+                'thingsToDo.sports.dive.text2': 'Il y a des entreprises qui donnent des cours et louent des équipements pour la plongée, comme <a target="_blank" href="https://www.facebook.com/BluesDivers"> Blues Divers</a>, situé sur la troisième plage.',
+                'thingsToDo.sports.dive.text3': 'Le <b>meilleur période</b> pour la pratique de la plongée sont les mois de <b>Novembre, Décembre, Janvier, Février et Mars</b>, c\'est-à-dire pendant l\'été. Cependant, c\'est possible de faire la plongée pendant toute l\'année. Essayez d\'en apprendre davantage sur les conditions avec les entreprises de plongée à Morro.',
+                'thingsToDo.sports.dive.text4': 'Il y a plusieurs bons endroits de plongée à Morro, tels que:',
+                'thingsToDo.sports.diving.option1': 'Les Récifs d\'Itatimirim (profondeur jusqu\'à 25 mètres), à 20 minutes en bateau de la première plage. Il y a quelques petites grottes (recommandé pour ceux qui ont déjà une expérience avec la plongée).',
+                'thingsToDo.sports.diving.option2': 'Les Récifs de Moleque\'s Stone (profondeur de 1 à 8 mètres), dans la première plage.',
+                'thingsToDo.sports.diving.option3': 'les grands murs de Gamboa (profondeur de jusqu\'à 12 mètres), à 10 minutes en bateau de la plage Gamboa.',
+                'thingsToDo.sports.diving.option4': 'les Récifs de forteresse (également avec la profondeur jusqu\'à 12 mètres), à proximité de la première plage.',
+                'thingsToDo.sports.diving.option5': 'Le Mur Royal (profondeur de 12 à 48 mètres), qui contient pleine de coraux.',
+                'thingsToDo.sports.diving.option6': 'la Roche de Benedito (profondeur de 25 mètres), à 45 minutes en bateau de première plage.',
+                'thingsToDo.sports.diving.option7': 'les Récifs de Caita (profondeur de 5 à 18 mètres), à 15 minutes en bateau de la troisième plage.',
+                'thingsToDo.sports.diving.option8': 'les Récifs de Itatiba (profondeur de 12 à 25 mètres), à 45 minutes en bateau de la troisième plage. C\'est un très long récif, avec un fond assez rugueux.',
+                'thingsToDo.sports.diving.option9': 'la Roche de Meros (profondeur de 20 à 35 mètres), 1 heure et 20 minutes en bateau, déjà situé dans la mer ouverte.',
+                'thingsToDo.sports.diving.option10': 'le naufrage du Chata (profondeur de 20 à 35 mètres). Il faut 2 heures de bateau pour y arriver, où vous trouverez l\'épave de remorqueur qui n\'est pas en excellent état.'
             };
         });
 })(window.angular);

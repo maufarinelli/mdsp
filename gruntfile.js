@@ -49,9 +49,12 @@ module.exports = function(grunt) {
                         'js/hotels/hotels.directive.js',
                         'js/hotels/hotels.controller.js',
                         'js/hotels/hotels.service.js',
-                        'js/thingsToDo/thingsToDo.directive.js',
+                        'js/thingsToDo/thingsToDo.component.js',
                         'js/thingsToDo/thingsToDo.controller.js',
                         'js/thingsToDo/thingsToDo.service.js',
+                        'js/thingsToDo/sports/sports.component.js',
+                        'js/thingsToDo/sports/sports.controller.js',
+                        'js/thingsToDo/sports/sports.service.js',
                         'js/main-app.js'
                     ]
                 }

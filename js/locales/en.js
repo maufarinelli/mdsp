@@ -89,13 +89,11 @@
                 'thingsToDo.tours.subtitle': 'Tours',
 
                 'thingsToDo.sport1.label': 'Dive',
-                'thingsToDo.sport1.url': '/#/sports',
+                'thingsToDo.sport1.url': '/#/things-to-do/sports',
                 'thingsToDo.sport2.label': 'Snorkeling',
-                'thingsToDo.sport2.url': '/#/sports',
+                'thingsToDo.sport2.url': '/#/things-to-do/sports',
                 'thingsToDo.sport3.label': 'Surf',
-                'thingsToDo.sport3.url': '/#/sports',
-                'thingsToDo.sport4.label': 'Kayaking',
-                'thingsToDo.sport4.url': '/#/sports',
+                'thingsToDo.sport3.url': '/#/things-to-do/sports',
 
                 'thingsToDo.leisure1.label': 'Waking along the beaches',
                 'thingsToDo.leisure1.url': '/#/leisure',
@@ -109,7 +107,23 @@
                 'thingsToDo.tour2.label': 'To Garapuá',
                 'thingsToDo.tour2.url': '/#/tours',
                 'thingsToDo.tour3.label': 'To Ponta do Curral',
-                'thingsToDo.tour3.url': '/#/tours'
+                'thingsToDo.tour3.url': '/#/tours',
+
+                'thingsToDo.sports.dive.subtitle': 'Diving',
+                'thingsToDo.sports.dive.text1': 'The Morro de Sao Paulo is a <b>paradise for diving enthusiasts</b> and Bahia is blessed with <b>its water around 27°C </b> and various marine species such as octopuses, lobsters and a hundred fish species.',
+                'thingsToDo.sports.dive.text2': 'There are some companies that give courses and rent equipment for diving cylinder, as <a target="_blank" href="https://www.facebook.com/BluesDivers">Blues Divers</a>, located on the third beach.',
+                'thingsToDo.sports.dive.text3': 'The <b>best months</b> for diving practice are <b>November, December, January, February and March</b>, which is the summer. But you can dive throughout the year. Try to learn about the conditions with diving companies at Morro.',
+                'thingsToDo.sports.dive.text4': 'There are several good diving spots in Morro, such as:',
+                'thingsToDo.sports.diving.option1': 'the Reef Itatimirim (depth up to 25 meters), at 20 minutes by boat from the First Beach in the open sea. These reefs you encotrará some small caves (recommended for those who already have experience with diving).',
+                'thingsToDo.sports.diving.option2': 'the Reefs of Moleque\'s Stone (depth of 1 to 8 meters), in the First Beach.',
+                'thingsToDo.sports.diving.option3': 'the Gamboa Big Walls (depth up to 12 meters) at 10 minutes by boat from Gamboa Beach',
+                'thingsToDo.sports.diving.option4': 'the Fortress Reefs (also with depth up to 12 meters), near the First Beach.',
+                'thingsToDo.sports.diving.option5': 'the Royal Wall (depth of 12 to 48 meters) full of corals.',
+                'thingsToDo.sports.diving.option6': 'the Benedito Stone (depth of 25 meters), at 45 minutes by boat from First Beach.',
+                'thingsToDo.sports.diving.option7': 'the Caitá Reefs (depth of 5 to 18 meters), at 15 minutes by boat from the Third Beach',
+                'thingsToDo.sports.diving.option8': 'the Itatiba Reef (depth of 12 to 25 meters), at 45 minutes by boat from Third Beach. It is a very long reef, with fairly rough background.',
+                'thingsToDo.sports.diving.option9': 'the Meros\'Stone (depth 20 to 35 meters), 1 hour and 20 minutes by boat, already located in the open sea.',
+                'thingsToDo.sports.diving.option10': 'the Sinking of Chata (depth of 20 to 35 meters). It takes 2 hours by boat to get there, where you will find the tugboat wreck that is not in excellent condition.'
             };
         });
 })(window.angular);

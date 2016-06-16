@@ -14,27 +14,33 @@
                 <ul class="list-unstyled thingstodo-columns">
                     <li class="col-lg-4 thingstodo-column-sports">
                         <h2 translate="thingsToDo.sports.subtitle"></h2>
-                        <ul class="list-unstyled">
-                            <li ng-repeat="sport in thingsToDo.sports">
-                                <a ng-href="{{sport.url}}">{{sport.label}}</a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="col-lg-4 thingstodo-column-leisure">
                         <h2 translate="thingsToDo.leisure.subtitle"></h2>
-                        <ul class="list-unstyled">
-                            <li ng-repeat="leisure in thingsToDo.leisure">
-                                <a ng-href="{{leisure.url}}">{{leisure.label}}</a>
-                            </li>
-                        </ul>
                     </li>
                     <li class="col-lg-4 thingstodo-column-tours">
                         <h2 translate="thingsToDo.tours.subtitle"></h2>
-                        <ul class="list-unstyled">
-                            <li ng-repeat="tour in thingsToDo.tours">
-                                <a ng-href="{{tour.url}}">{{tour.label}}</a>
-                            </li>
-                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row site-content">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3 translate="thingsToDo.sports.dive.subtitle"></h3>
+                <iframe width="800" height="450" src="https://www.youtube.com/embed/IVkSmhoriDw" frameborder="0" allowfullscreen></iframe>
+                <p translate="thingsToDo.sports.dive.text1"></p>
+            </div>
+
+            <div class="col-lg-8 col-lg-offset-2">
+                <p translate="thingsToDo.sports.dive.text2"></p>
+                <p translate="thingsToDo.sports.dive.text3"></p>
+                <p translate="thingsToDo.sports.dive.text4"></p>
+                <ul>
+                    <li ng-repeat="spot in sports.divingSpots">
+                        <span ng-bind="spot.label"></span>
                     </li>
                 </ul>
             </div>

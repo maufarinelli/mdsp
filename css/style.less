@@ -407,3 +407,31 @@ a {
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
+
+//Things to do
+.thingstodo-columns {
+	a {
+		display: block;
+		padding: 10px 0;
+		border-bottom: 1px solid @color-black;
+		text-decoration: none;
+	}
+
+	li ul li:last-child {
+		a {
+			border-bottom: 0;
+		}
+	}
+}
+
+.thingstodo-column-sports {
+	background-color: @bg-sports;
+}
+
+.thingstodo-column-leisure {
+	background-color: @bg-leisure;
+}
+
+.thingstodo-column-tours {
+	background-color: @bg-tours;
+}
